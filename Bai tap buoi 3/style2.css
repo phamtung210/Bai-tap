@@ -1,0 +1,11 @@
+img {
+    width: 400;
+    height: 400;
+    border-radius: 50%;
+}
+hr  {
+    border-top: 5px dashed yellow;
+}
+.inline-block {
+    color: yellow;
+}
