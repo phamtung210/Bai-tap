@@ -1,126 +1,89 @@
-@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
-:root {
-    font-family: "BeaufortforLOL-Bold"; 
-    font-size: 20px;
-    font-weight: 700;
-}
 
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+body {
+    background-color: aliceblue;
+    width: 100%vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+input, label {
+    display: block;
+}
+
+.login {
+    background-color: #FFFFFF;
+    width: 340px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.login-title {
+    font-size: 24px;
+    text-align: center;
+    color: #111111;
+    padding-bottom: 24px;
+}
+
+.login-form {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(249, 249, 249, 0.8);
+}
+
+.label-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-login {
+    cursor: pointer;
+    background-color: #007AFF;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px;
+    transition: all ease-in 100ms;
+}
+
+.button-login:hover {
+    background-color: white;
+    color: #007AFF;
+    cursor: pointer;
 }
 
 a {
     text-decoration: none;
-}
-
-ul, 
-ol, 
-li {
-    list-style: none;    
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-.banner {
-    width: 100%;
-    height: auto;
-}
-
-.header_logo {
-    width: 240px;
-    height: auto;
-    margin: 32px auto;
-}
-
-.nav_bar {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 62px;
-}
-
-.nav_bar ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-}
-
-.nav_bar ul li a {
-    color: black;
-}
-
-.nav_bar ul li a:hover {
-    cursor: pointer;
-    opacity: 0.5;
-}
-
-.champions {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-    margin: 0 auto;
-}
-
-.champions figcaption {
-    width: 100%;
-    height: 70px;
-    line-height: 70px;
-    background-color: #0E4C67;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: uppercase;  
-    margin-top: -10px; 
-}
-
-.video iframe {
-    width: 100%;
-    height: 792px;
-    margin: 64px 16px;
-}
-
-footer {
-    width: 100%;
-    height: 100px;
-    background-color: #0E4C67;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer .copyright {
-    color: white;
-}
-
-footer .email {
-    padding: 16px 26px;
-    background-color: #0E4C67;
-    border-color: #FFFFFF;
-    border-radius: 10px;
-}
-
-footer ::placeholder {
-    color: white
-}
-
-.register {
-    padding: 15px 15px;
-    background-color: #FFA800;
-    border-radius: 10px;
-}
-
-.register:hover {
-    cursor: pointer;
-    opacity: 0.3;
 }
